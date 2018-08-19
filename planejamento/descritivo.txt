@@ -1,0 +1,47 @@
+sistema unificado de aquisição de dados
+
+as atividades consistem na elaboração de um protótipo que integra sensores de deslocamento, temperatura, leitor de encoder rotativo e 
+força em um módulo de aquisição de dados utilizando kit de desenvolvimento de prototipagem rápida com acessibilidade de interface
+gráfica baseada em PC.
+
+custo previsto:300
+tempo para conclusão: 4 meses
+
+o que será feito:
+medição de transdutor de deslocamento (potenciometro)
+medição em temperatura DHT-11
+medição de força - Célula de carga sens 2mV/V
+
+integração das medições apresentadas em interface gráfica baseada em PC (LabVIEW)
+um display gráfico acoplado ao módulo.
+aquisição de dados para tabela em excel
+apresentação do desenvolvimento e resultados
+
+as atividades serão divididas entre: 
+-montagem da placa para cada grandeza a ser medida
+-programação do software para cada grandeza a ser medida
+-integração e testes de cada etapa
+-relatórios intermediários e final
+
+
+passos futuros:
+contador para encoder rotativo
+aprimorar via RTOS o sistema embarcado de aquisição
+configurar dispositivos wi-fi para integração com a rede do IPT
+automação para transcrever os valores aquisitados para planilha padrão de certificado
+elaborar uma PCB do protótipo desenvolvido, bem como seu case com as respectivas conexões
+gerenciamento de erros do dispositivo
+
+
+componentes
+hx711
+ads1115
+protoboard
+arduino uno/mega
+cabos
+leds
+resistores
+conectores
+display grafico
+bornes
+DHT11
